@@ -1,0 +1,34 @@
+// Base sans-serif
+@mixin basesans {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+// Base serif
+@mixin baseserif {
+	font-family: 'Arvo', serif;
+
+}
+
+// headline styles
+@mixin headline1 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #484848;
+}
+
+@mixin headline2 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #484848;
+}
+
+@mixin callouth2 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #3badb0;
+}

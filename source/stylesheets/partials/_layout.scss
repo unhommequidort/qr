@@ -1,0 +1,7 @@
+.header-outer-container {
+	@include outer-container;
+}
+
+.header-column {
+	@include span-columns(12);
+}
