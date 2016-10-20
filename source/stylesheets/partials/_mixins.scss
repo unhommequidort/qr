@@ -22,8 +22,11 @@
 @mixin headline2 {
 	font-family: 'Arvo', serif;
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 22px;
 	color: #484848;
+	@include media($break) {
+		font-size: 36px;
+	}
 }
 
 @mixin callouth2 {

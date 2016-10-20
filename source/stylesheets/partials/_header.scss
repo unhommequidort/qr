@@ -1,6 +1,9 @@
 .page-header {
 	width: 100%;
-	border-bottom: 2px solid #ddd;
+	border-bottom: 2px solid #f2f2f2;
+	position: relative;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+	z-index: 100;
 }
 
 .header-column {
@@ -10,7 +13,7 @@
 		padding-left: 20px;
 	}
 	@include media(1000px) {
-		padding-left: 100px;
+		padding-left: 40px;
 	}
 }
 
@@ -59,13 +62,13 @@
 
 	}
 	@include media(850px) {
-		display: block;
+		display: block!important;
 		ul {
 			position: absolute;
 			top: 60px;
 			right: 20px;
 			@include media(1000px) {
-				right: 100px;
+				right: 40px;
 			}
 		}
 		a {

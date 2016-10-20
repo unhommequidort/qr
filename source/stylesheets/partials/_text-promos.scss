@@ -1,0 +1,82 @@
+.promo-container {
+	/*border: 1px solid blue;*/
+	padding: 10px;
+	overflow: auto;
+	@include media($break) {
+		display: flex;
+		justify-content: space-between;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+.promo {
+	width: 100%;
+	margin-top: 30px;
+	&:nth-child(odd) {
+		padding-bottom: 20px;
+	}
+	h2 {
+		@include headline2;
+	}
+	p {
+		@include basesans;
+	}
+}
+
+.promo-more {
+	@include baseserif;
+	position: relative;
+	padding-right: 10px;
+	font-weight: 700;
+	color: #3badb0;
+	text-decoration: none;
+	text-transform: uppercase;
+	&:after {
+		content: '\f105';
+		font-family: 'fontAwesome';
+		font-size: 32px;
+		position: absolute;
+		right: -10px;
+		bottom: -5px;
+	}
+}
+
+.promo1 {
+	border-top: 3px solid #3badb0;
+	@include media($break) {
+
+		width: 48%;
+	}
+}
+
+.promo2 {
+	border-top: 3px solid #3badb0;
+	@include media($break) {
+		width: 48%;
+	}
+}
+
+.promo3 {
+	background-image: url('../../images/pod-quilt.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	@include media($break) {
+		width: 65%;
+	}
+}
+
+.pod-quilt {
+	width: 100%;
+}
+
+.promo4 {
+	border-top: 3px solid #3badb0;
+	@include media($break) {
+		width: 32%;
+	}
+}
+
+
+

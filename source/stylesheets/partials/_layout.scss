@@ -5,3 +5,16 @@
 .header-column {
 	@include span-columns(12);
 }
+
+.main-outer-container {
+	width: 100%;
+}
+
+.main-inner-container {
+	@include outer-container;
+}
+
+.intro-column {
+	@include span-columns(12);
+}
+

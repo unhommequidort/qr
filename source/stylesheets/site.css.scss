@@ -2,8 +2,11 @@
 @import "normalize";
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
+@import "partials/variables";
 @import "partials/mixins";
 @import "partials/layout";
 @import "partials/header";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
-@import "partials/typography"
+@import "partials/typography";
+@import "partials/intro";
+@import "partials/text-promos";
