@@ -18,3 +18,11 @@
 	@include span-columns(12);
 }
 
+
+.footer-outer-container {
+	@include outer-container;
+}
+
+.footer-column {
+	@include span-columns(12);
+}
